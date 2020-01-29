@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Your Journey</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Bowlby+One+SC|Indie+Flower|Montserrat|Pacifico|Titillium+Web&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <div class="container">
+      <div class="header-left">
+        <a href="index.html">
+          <img src="cup.jpg">
+            <p>CupOfCode</p>
+          </a>
+      </div>
+      <div class="header-right">
+        <a href="query.html" class="query">Queries</a>
+      </div>
+    </div>
+
+</header>
+    <div class="domain">
+        <div class="banner">
+            <h1>Why do you want to learn programming?</h1>
+        </div>
+    </div>
+    <div class="contents">
+        <div class="contents-item">
+          <button id="myBtn">
+            <img src="web.jpg">
+          </button>  
+          <div id="myModal" class="modal">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>Web Development</h2>
+                </div>
+                <div class="modal-body">
+                  <p>Web development is the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web-based internet applications (web apps), electronic businesses, and social network services.</p>
+                  <p>Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript. Responsive Web Design is used in all types of modern web development.</p>
+                  <p style="font-family: 'Pacifico';"> Select your level of expertise:<br>
+                    <input name= "html" type="radio" value="Beginner" onclick="myFunction(this.value)">Beginner
+                    <input name="html" type= "radio" value="Intermediate" onclick="myFunction(this.value)"> Intermediate</p> 
+                </div>
+              </div>
+          </div>
+            <p>Web Development</p>
+          </div>
+          
+          <div class="contents-item">
+            <button id="myBtn2">
+              <img src="comp.png">
+            </button>  
+            <div id="myModal2" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Competitive Coding</h2>
+                  </div>
+                  <div class="modal-body">
+                    <p>Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications. Once you enter in programming you just don’t learn how to code but you also learn the “art of thinking”, by breaking your code into smaller chunks and then using your logic-based creativity to solve a problem from different angles.</p>
+                    <p>C++ is by far the the most popular language of choice for competitive programmers across the world as it is usually faster than Java and Python, and most of the resources are available in C++. C++ also has a vast library called STL(Standard Template Library) which makes life a lot easier for competitive coders.</p>
+                    <p style="font-family: 'Pacifico';"> Select your level of expertise:<br>
+                      <input name= "cpp" type="radio" value="Beginner" onclick="myFunction2(this.value)">Beginner
+                      <input name="cpp" type= "radio" value="Intermediate" onclick="myFunction2(this.value)"> Intermediate</p> 
+                  </div>
+                </div>
+            </div>
+              <p>Competitive Coding</p>
+            </div>
+            <div class="contents-item">
+              <button id="myBtn3">
+                <img src="python.png">
+              </button>  
+              <div id="myModal3" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <span class="close">&times;</span>
+                      <h2>Python Applications</h2>
+                    </div>
+                    <div class="modal-body">
+                      <p>Python is free and simple to learn. Its primary features are that it is high-level, dynamically typed and interpreted. This makes debugging of errors easy and encourages the rapid development of application prototypes.</p> 
+                      <p>Machine Learning and Artificial Intelligence are the talks of the town as they yield the most promising careers for the future. We make the computer learn based on past experiences through the data stored or, create algorithms which makes the computer learn by itself. Libraries such as Pandas, NumPy help you in extracting information. You can even visualize the data libraries such as Matplotlib, Seaborn, which are helpful in plotting graphs and much more. This is what Python offers you to become a Data Scientist.</p>
+                      <p style="font-family: 'Pacifico';"> Select your level of expertise:<br>
+                        <input name= "pythonapp" type="radio" value="Beginner" onclick="myFunction3(this.value)">Beginner
+                        <input name="pythonapp" type= "radio" value="Intermediate" onclick="myFunction3(this.value)"> Intermediate</p> 
+                    </div>
+                  </div>
+              </div>
+                <p id="pyth">Python Applications</p>
+              </div>
+    </div>    
+    <footer>
+      <div class="container">
+          <p id="names">Made by Priyanka</p>
+          <p id = "code">It's code time!</p>
+        </div>
+     </footer>
+    <script type="text/javascript" src="script.js"></script>   
+</body>
+</html>

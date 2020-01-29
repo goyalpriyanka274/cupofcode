@@ -1,0 +1,432 @@
+body{
+  margin: 0;
+  padding:0;
+  cursor: context-menu;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: #9fcec4;
+  }
+  
+  .header-left p{
+      font-family: 'Indie Flower', cursive;
+      font-size: 28px;
+      color: cornsilk;
+      margin-top: 18px;
+      float: left;
+      padding:0;
+     margin-left: 2px;
+  }
+  .header-left img{
+    width:75px;
+    height: 65px;
+      
+      float: left;
+  }
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: cornsilk;
+    display: block;
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+  }  
+
+.banner{
+    width: 100%;
+    height: 90px;
+    background-color: #223134;
+}
+.banner h1{
+    font-size: 36px;
+    text-align: center;
+    padding: 20px 40px;
+    font-family: 'Bangers', cursive;
+    color: white;
+    margin-top: 0;
+}
+.banner h1:hover{
+    color:#94e0f0;
+}
+.hello {
+    height:450px;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.intro p{
+    font-size: 24px;
+    color:#004d80;
+    font-family: 'Patrick Hand', cursive;}
+.intro span{
+    color:#ff4d94;
+    font-family: 'Pacifico', cursive;
+}
+.intro{
+    text-align: center;
+    padding:0 20px;
+}
+.butt{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.start{
+    padding: 15px 40px;
+    cursor:pointer;
+    background-color: #223134;
+    font-size: 24px;
+    color: cornsilk;
+    box-shadow: 0 3px #b3b3b3;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    font-family: 'Indie Flower', cursive;
+}
+.start:hover{
+    opacity:1;
+}
+.start:active{
+    box-shadow: none;
+    position:relative;
+    top:7px;
+}
+  
+  
+
+footer{
+  background-color: #9fcec4;
+  height: 100px;
+}
+
+#code{
+    text-align: right;
+    vertical-align: middle;
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    color: cornsilk;
+    float: right;
+    margin-top: 34px;    
+}
+#names{
+  text-align: left;
+  vertical-align: middle;
+  font-size: 24px;
+  font-family: 'Pacifico', cursive;
+  color: cornsilk;
+  float: left;
+  margin-top: 34px;
+}
+  
+  .contents {
+    height: 500px;
+    margin-top:100px;
+    text-align: center;
+    
+  }.contents-item {
+    float: left;
+    margin-left: 9%;
+    width: 20%;
+    
+  }
+  #pyth{
+    font-size: 22px;
+  }
+  
+  
+  .contents-item p{
+    font-size:24px;
+    margin-top:30px;
+    font-family: 'Bowlby One SC', cursive;
+    color:#ff4d94;
+  }
+  .contents-item img{
+      height:300px;
+      width:300px;
+  }
+  .contents-item img:hover{
+    opacity: 0.8;
+}
+.contents-item p:hover{
+    color:#910a40;
+  }
+  button{
+    background-color: white;
+    border:none;
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+     -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.6s
+  }
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #9fcec4;
+    color: cornsilk;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+  }
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.6s
+  }
+  .modal-body p{
+    font-family: 'Patrick Hand', cursive;
+    color:#223134;
+  }
+  .modal-body p:hover{
+    font-family: 'Patrick Hand', cursive;
+    color:#223134;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+
+
+/*CONTACT---------------------------------------------*/
+  #contact {
+    background: #f7f7f7;
+    padding: 80px 0;
+  }
+  
+  #contact .info {
+    color: #333333;
+  }
+  
+  #contact .info i {
+    font-size: 32px;
+    color: #9fcec4;
+    float: left;
+  }
+  
+  #contact .info p {
+    padding: 0 0 10px 50px;
+    line-height: 24px;
+    font-size: 18px;
+    font-family: 'Patrick Hand', cursive;
+    color:#223134;
+  }
+  
+  #contact .form #sendmessage {
+    color: #03C4EB;
+    box-shadow: 0 3px #b3b3b3;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #contact .form #errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+    display: block;
+  }
+  
+  #contact .form .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  #contact .form input, #contact .form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+  }
+  
+  #contact .form button[type="submit"] {
+    padding: 15px 40px;
+    cursor:pointer;
+    background-color: #223134;
+    font-size: 24px;
+    color: cornsilk;
+    box-shadow: 0 3px #b3b3b3;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  #contact .form button[type="submit"]:hover {
+    opacity:1;
+  }
+  #contact .form button[type="submit"]:active {
+    box-shadow: none;
+    position:relative;
+    top:7px;
+  }
+  .section-title {
+    font-size: 32px;
+    color: #ff4d94;
+    
+    text-align: center;
+ 
+    font-family: 'Bowlby One SC', cursive;
+  }
+  
+  .section-description {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    color:#223134;
+  }
+ 
+  
+  .section-title-divider {
+    width: 50px;
+    height: 3px;
+    background: #9fcec4;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+
+  /*SLIDER-----------------*/
+  .slider-holder
+        {
+            width: 60%;
+            height: 500px;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+       
+        .image-holder
+        {
+            width: 2400px;
+            background-color:white;
+            height: 400px;
+            clear: both;
+            position: relative;
+           
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+       
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+       
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+       
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+       
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+       
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+       
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: brown;
+        }
